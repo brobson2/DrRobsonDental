@@ -1,0 +1,27 @@
+section {
+  height: 500px;
+  /*border: 1px solid red;*/
+  display: flex;
+}
+
+.splash-img {
+  background-image: url('../assets/woman-smiling-soft.jpeg');
+  background-size: cover;
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.splash-txt {
+  font-family: monospace;
+  font-size: 2em;
+  text-shadow: 2px 2px 8px rgb(0, 0, 0);
+  color: white;
+  font-weight: bold;
+  font-stretch: expanded;
+}
+
+.small-box {
+  width: 400px;
+}
