@@ -1,6 +1,33 @@
+.nav-top {
+  font-family: 'Droid Sans', Arial, sans-serif;
+  font-size: 1.2rem;
+  display:flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items:baseline;
+}
+
+.nav-top h1 {
+  font-size: 1.75rem;
+  margin: 10px;
+}
+
+.nav-top a, li {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  padding: 0px 5px 0px 5px;
+}
+
+.nav-top ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
 section {
   height: 500px;
-  /*border: 1px solid red;*/
+  border: 1px solid red;
   display: flex;
 }
 
