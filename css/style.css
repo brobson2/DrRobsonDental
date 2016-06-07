@@ -1,6 +1,6 @@
 .nav-top {
   font-family: "Droid Sans", Arial, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   display:flex;
   justify-content: space-between;
   height: 50px;
@@ -43,8 +43,10 @@
 }
 
 section {
-  height: 500px;
-  border: 1px solid red;
+  height: auto;
+  width: 100%;
+  /*height:500px;*/
+  border: 1px solid white;
 }
 
 section h2 {
@@ -58,6 +60,45 @@ section h2 {
   margin:-70px 0 0;
 }
 
+aside {
+  display: flex;
+  padding: 20px 60px 60px 60px;
+  margin: auto;
+  width: 75%;
+  align-items:center;
+}
+
+.about {
+  margin-left: 60px;
+}
+
+.meet {
+  margin-right: 60px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.text {
+  text-align: justify;
+}
+
+.img-center {
+  display: flex;
+  justify-content: center;
+  margin: 0px 40px 0px 40px;
+
+}
+
+.flex {
+  /*flex: 1;*/
+}
+
+footer {
+  height:100px;
+  border: 1px solid red;
+}
 .splash-img {
   background-image: url("../assets/woman-smiling-soft.jpeg");
   background-size: cover;
@@ -77,22 +118,42 @@ section h2 {
   font-stretch: expanded;
 }
 
+.contact {
+  height: auto;;
+  display: flex;
+  justify-content: space-around;
+}
+.map {
+  flex: 1;
+  margin: 2rem;
+}
+.address {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
 .small-box {
   width: 400px;
 }
 
 .c1 {
-  background: #05D8FF;
+  background: #54CEFF;
 }
 
 .c2 {
-  background: #07BBFF;
+  background: #0B82B2;
 }
 
 .c3 {
-  background: #0091FF;
+  background: #9CE2FF;
 }
 
 .c4 {
-  background: #0064FF;
+  background: #FFB45F;
+}
+
+.c5 {
+  background: #D97C14;
 }
