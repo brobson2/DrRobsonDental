@@ -1,121 +1,138 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Bracebridge Dentist | Dr. Stuart Robson</title>
 
     <link rel="stylesheet" href="css/normalize.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script><!-- Animate scroll -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <!-- Animate scroll -->
 
     <script>
-$(document).ready(function(){
- // Add smooth scrolling to all links
- $("a").on('click', function(event) {
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
 
-   // Make sure this.hash has a value before overriding default behavior
-   if (this.hash !== "") {
-     // Prevent default anchor click behavior
-     event.preventDefault();
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
 
-     // Store hash
-     var hash = this.hash;
+                    // Store hash
+                    var hash = this.hash;
 
-     // Using jQuery's animate() method to add smooth page scroll
-     // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-     $('html, body').animate({
-       scrollTop: $(hash).offset().top
-     }, 400, function(){
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 400, function() {
 
-       // Add hash (#) to URL when done scrolling (default click behavior)
-       window.location.hash = hash;
-     });
-   } // End if
- });
-});
-</script>
-  </head>
-  <body>
-    <header>
-        <nav class="nav-top fixed-top">
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header class="">
+        <nav class="nav-top fixed-top nav-txt shadow">
+
+            <!-- <img src="http://placehold.it/40x40"> -->
             <h1>Dr. Stuart Robson Dentistry</h1>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About the Practice</a></li>
-            <li><a href="#meet">Meet The Dentist</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+
+            <ul class="fa-ul">
+                <li><a href="#home"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#about"><i class="fa fa-adn"></i>About the Practice</a></li>
+                <li><a href="#meet"><i class="fa fa-user-md"></i>Meet The Dentist</a></li>
+                <li><a href="#services"><i class="fa fa-angle-double-down"></i>Services</a></li>
+                <li><a href="#contact"><i class="fa fa-envelope-o"></i>Contact</a></li>
+            </ul>
         </nav>
     </header>
-    <main>
-      <div class="spacer">
+    <main class="spacer">
+        <section>
+            <div class="splash-img" id="home">
+                <div class="splash-txt">
+                    <h3>Stuff Should go here</h3>
+                    <p>Maybe even a short descriptions of what I'm referring to by stuff...
+                    </p>
+                </div>
+            </div>
 
+        </section>
+        <div class="bkgd-cloud">
+        <section class="c1 shadow2">
+            <h2 id="about">About The Practice</h2>
+            <aside class="about">
+                <div class="img-center">
+                    <img src="http://placehold.it/300x300">
+                </div>
+                <div class="text">
+                    <h4 class=>About</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, maiores ornare ac fermentum, imperdiet ut vivamus a, nam lectus at nunc. Quam euismod sem, semper ut potenti pellentesque quisque. In eget sapien sed, sit duis vestibulum ultricies, placerat morbi amet vel, nullam in in lorem
+                        vel. In molestie elit dui dictum, praesent nascetur pulvinar sed, in dolor pede in aliquam, risus nec error quis pharetra. Eros metus quam augue suspendisse, metus rutrum risus erat in. In ultrices quo ut lectus, etiam vestibulum
+                        urna a est, pretium luctus euismod nisl, pellentesque turpis hac ridiculus massa. Venenatis a taciti dolor platea, curabitur lorem platea urna odio, convallis sit pellentesque lacus proin. Et ipsum velit diam nulla, fringilla vel
+                        tincidunt vitae, elit turpis tellus vivamus, dictum adipiscing convallis magna id. Viverra eu amet sit, dignissim tincidunt volutpat nulla tincidunt, feugiat est erat dui tempor, fusce tortor auctor vestibulum. Venenatis praesent
+                        risus orci, ante nam volutpat erat. Cursus non mollis interdum maecenas, consequat imperdiet penatibus enim, tristique luctus tellus eos accumsan, ridiculus erat laoreet nunc.
+                    </p>
+                </div>
+
+            </aside>
+        </section>
+        <!-- <hr class="style-seven"> -->
+        <section class="c2">
+            <h2 id="meet">Meet The Dentist</h2>
+            <aside class="meet reverse">
+                <div class="img-center">
+                    <img src="http://placehold.it/300x300">
+                </div>
+                <div class="text">
+                    <h4>Meet</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, maiores ornare ac fermentum, imperdiet ut vivamus a, nam lectus at nunc. Quam euismod sem, semper ut potenti pellentesque quisque. In eget sapien sed, sit duis vestibulum ultricies, placerat morbi amet vel, nullam in in lorem
+                        vel. In molestie elit dui dictum, praesent nascetur pulvinar sed, in dolor pede in aliquam, risus nec error quis pharetra. Eros metus quam augue suspendisse, metus rutrum risus erat in. In ultrices quo ut lectus, etiam vestibulum
+                        urna a est, pretium luctus euismod nisl, pellentesque turpis hac ridiculus massa. Venenatis a taciti dolor platea, curabitur lorem platea urna odio, convallis sit pellentesque lacus proin. Et ipsum velit diam nulla, fringilla vel
+                        tincidunt vitae, elit turpis tellus vivamus, dictum adipiscing convallis magna id. Viverra eu amet sit, dignissim tincidunt volutpat nulla tincidunt, feugiat est erat dui tempor, fusce tortor auctor vestibulum. Venenatis praesent
+                        risus orci, ante nam volutpat erat. Cursus non mollis interdum maecenas, consequat imperdiet penatibus enim, tristique luctus tellus eos accumsan, ridiculus erat laoreet nunc.
+                    </p>
+                </div>
+
+            </aside>
+
+        </section>
+        <!-- <hr class="style-seven"> -->
+        <section class="c3 shadow">
+            <h2 id="services">Services</h2>
+            <div class="services">
+                <ul>
+                    <li>Example</li>
+                    <li>Example</li>
+                    <li>Example</li>
+                    <li>Example</li>
+                    <li>Example</li>
+                    <li>Example</li>
+                    <li>Example</li>
+                    <li>Example</li>
+                    <li>Example</li>
+                </ul>
+
+            </div>
+        </section>
       </div>
-    <section>
-      <div class="splash-img" id="home">
-        <div class="splash-txt small-box">
-          <h3>Stuff Should go here</h3>
-          <p>Maybe even a short descriptions of what I'm referring to by stuff...
-          </p>
-        </div>
-      </div>
-
-    </section>
-    <section class="c1">
-      <h2 id="about">About The Practice</h2>
-      <aside class="about">
-        <div class="img-center flex">
-            <img src="http://placehold.it/300x300">
-        </div>
-        <div class="text flex">
-          <h4>About</h4>
-        <p>
-          Lorem ipsum dolor sit amet, maiores ornare ac fermentum, imperdiet ut vivamus a, nam lectus at nunc. Quam euismod sem, semper ut potenti pellentesque quisque. In eget sapien sed, sit duis vestibulum ultricies, placerat morbi amet vel, nullam in in lorem vel. In molestie elit dui dictum, praesent nascetur pulvinar sed, in dolor pede in aliquam, risus nec error quis pharetra. Eros metus quam augue suspendisse, metus rutrum risus erat in.  In ultrices quo ut lectus, etiam vestibulum urna a est, pretium luctus euismod nisl, pellentesque turpis hac ridiculus massa. Venenatis a taciti dolor platea, curabitur lorem platea urna odio, convallis sit pellentesque lacus proin. Et ipsum velit diam nulla, fringilla vel tincidunt vitae, elit turpis tellus vivamus, dictum adipiscing convallis magna id. Viverra eu amet sit, dignissim tincidunt volutpat nulla tincidunt, feugiat est erat dui tempor, fusce tortor auctor vestibulum. Venenatis praesent risus orci, ante nam volutpat erat. Cursus non mollis interdum maecenas, consequat imperdiet penatibus enim, tristique luctus tellus eos accumsan, ridiculus erat laoreet nunc.
-        </p>
-        </div>
-
-      </aside>
-    </section>
-    <section class="c2">
-      <h2 id="meet">Meet The Dentist</h2>
-      <aside class="meet reverse">
-        <div class="img-center flex">
-            <img src="http://placehold.it/300x300">
-        </div>
-        <div class="text flex">
-          <h4>Meet</h4>
-        <p>
-          Lorem ipsum dolor sit amet, maiores ornare ac fermentum, imperdiet ut vivamus a, nam lectus at nunc. Quam euismod sem, semper ut potenti pellentesque quisque. In eget sapien sed, sit duis vestibulum ultricies, placerat morbi amet vel, nullam in in lorem vel. In molestie elit dui dictum, praesent nascetur pulvinar sed, in dolor pede in aliquam, risus nec error quis pharetra. Eros metus quam augue suspendisse, metus rutrum risus erat in.  In ultrices quo ut lectus, etiam vestibulum urna a est, pretium luctus euismod nisl, pellentesque turpis hac ridiculus massa. Venenatis a taciti dolor platea, curabitur lorem platea urna odio, convallis sit pellentesque lacus proin. Et ipsum velit diam nulla, fringilla vel tincidunt vitae, elit turpis tellus vivamus, dictum adipiscing convallis magna id. Viverra eu amet sit, dignissim tincidunt volutpat nulla tincidunt, feugiat est erat dui tempor, fusce tortor auctor vestibulum. Venenatis praesent risus orci, ante nam volutpat erat. Cursus non mollis interdum maecenas, consequat imperdiet penatibus enim, tristique luctus tellus eos accumsan, ridiculus erat laoreet nunc.
-        </p>
-        </div>
-
-      </aside>
-
-    </section>
-    <section class="c3">
-      <h2 id="services">Services</h2>
-      <div class="services">
-        <ul>
-          <li>Example</li>
-          <li>Example</li>
-          <li>Example</li>
-          <li>Example</li>
-          <li>Example</li>
-          <li>Example</li>
-          <li>Example</li>
-          <li>Example</li>
-          <li>Example</li>
-        </ul>
-
-      </div>
-    </section>
-    <section class="c4">
+        <!-- <hr class="style-seven"> -->
+        <section class="c4">
       <h2 id="contact">Contact Us</h2>
       <div class="contact">
       <div class="map">
-        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:650px;'><div id='gmap_canvas' style='height:440px;width:650px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="https://disclaimergenerator.net">disclaimer generator</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(45.0435299,-79.31435299999998),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(45.0435299,-79.31435299999998)});infowindow = new google.maps.InfoWindow({content:'<strong>Dr. Stuart Robson Dentistry Professional Corp</strong><br>149 Manitoba St, Bracebridge, P1L 2B7<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:400px;width:650px;'><div id='gmap_canvas' style='height:400px;width:650px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="https://disclaimergenerator.net">disclaimer generator</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(45.0435299,-79.31435299999998),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(45.0435299,-79.31435299999998)});infowindow = new google.maps.InfoWindow({content:'<strong>Dr. Stuart Robson Dentistry Professional Corp</strong><br>149 Manitoba St, Bracebridge, P1L 2B7<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
       </div>
       <div class="address">
         <address class="">
