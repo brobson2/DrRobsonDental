@@ -131,18 +131,29 @@ footer {
   background-size: cover;
   display: flex;
   height: 660px;
+  /*height: auto;*/
   width: 100%;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
 .splash-txt {
-  font-family: "Droid Sans";
-  font-size: 1rem;
+  font-family: "Raleway", sans-serif;;
+  font-size: 2em;
   text-shadow: 2px 2px 8px rgb(0, 0, 0);
   color: white;
   font-weight: bold;
-  font-stretch: expanded;
+  /*font-stretch: expanded;*/
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 3;
 }
 
 .contact {
@@ -185,7 +196,7 @@ footer {
   background: #D97C14;
 }*/
 
-.button {
+ul .button {
   background-color: #fff;
   border: 4px solid #cdcdcd;
   color: #595959;
@@ -199,7 +210,7 @@ footer {
   border-radius: 12px;
 }
 
-hr.style-seven {
+/*hr.style-seven {
     height: 30px;
     border-style: solid;
     border-color: black;
@@ -208,7 +219,7 @@ hr.style-seven {
     width: 95%;
 }
 hr.style-seven:before { /* Not really supposed to work, but does */
-    display: block;
+    /*display: block;
     content: "";
     height: 30px;
     margin-top: -31px;
@@ -217,4 +228,4 @@ hr.style-seven:before { /* Not really supposed to work, but does */
     border-width: 0 0 1px 0;
     border-radius: 20px;
 
-}
+} */
