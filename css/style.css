@@ -121,7 +121,6 @@ li i {
   background-size: cover;
   display: flex;
   height: 440px;
-  width: 100%;
   justify-content: center;
   align-items: flex-end;
 }
@@ -218,9 +217,17 @@ ul.services {
   color: white;
   font-weight: bold;
   background-color: rgba(255, 255, 255, 0.5);
-  width: 100%;
+  padding: 0px 20px 0px 20px;
+  width:100%;
+  text-align: center;
 
 }
+
+.splash-txt p, .splash-txt h2 {
+  margin: 5px 0px 5px 0px;
+}
+
+
 
 .text {
   font-family: "Droid Sans", Helvetica, Arial, sans-serif;
@@ -275,8 +282,8 @@ ul.services {
     padding-bottom: 40px;
   }
 
-  .1em {
-    font-size: 2em;
+  .address {
+    font-size: 1.5em;
   }
 
 }
