@@ -2,6 +2,7 @@
 
 body {
   padding-top: 50px;
+  font-family: "Droid Sans", Helvetica, Arial, sans-serif;
 }
 
 section {
@@ -239,7 +240,7 @@ ul.services {
   text-transform: inherit;
 }
 
-@media all and (min-width: 600px) {
+@media (min-width: 600px) {
 
 
   .nav-top h1 {
@@ -259,7 +260,7 @@ ul.services {
 
 
 }
-@media all and (min-width: 860px) {
+@media (min-width: 860px) {
 
   aside {
     display: flex;
@@ -288,7 +289,7 @@ ul.services {
 
 }
 
-@media screen and (min-width: 1100px) {
+@media (min-width: 1100px) {
 
   .nav-top {
     height: 50px;
