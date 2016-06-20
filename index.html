@@ -5,51 +5,23 @@
     <meta charset="utf-8">
     <title>Bracebridge Dentist | Dr. Stuart Robson</title>
 
-    <link rel="stylesheet" href="css/normalize.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css" media="screen" title="no title">
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title">
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <!-- Animate scroll -->
-
-    <script>
-        $(document).ready(function() {
-            // Add smooth scrolling to all links
-            $("a").on('click', function(event) {
-
-                // Make sure this.hash has a value before overriding default behavior
-                if (this.hash !== "") {
-                    // Prevent default anchor click behavior
-                    event.preventDefault();
-
-                    // Store hash
-                    var hash = this.hash;
-
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 400, function() {
-
-                        // Add hash (#) to URL when done scrolling (default click behavior)
-                        window.location.hash = hash;
-                    });
-                } // End if
-            });
-        });
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false">
     </script>
 </head>
 
 <body>
-    <header class="">
-        <nav class="nav-top fixed-top nav-txt shadow">
-
-            <!-- <img src="http://placehold.it/40x40"> -->
+    <header>
+        <nav class="nav-top fixed-top shadow">
             <h1>Dr. Stuart Robson Dentistry</h1>
+            <a class="phone 1em" href="tel://1-705-645-4151">CALL NOW 705-645-4151</a>
 
             <ul class="fa-ul upper">
-                <li><a href="#home"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
                 <li><a href="#about"><i class="fa fa-adn"></i>About the Practice</a></li>
                 <li><a href="#meet"><i class="fa fa-user-md"></i>Meet The Dentist</a></li>
                 <li><a href="#services"><i class="fa fa-angle-double-down"></i>Services</a></li>
@@ -57,26 +29,25 @@
             </ul>
         </nav>
     </header>
-    <main class="spacer">
+    <main class="bkgd">
         <section>
-            <div class="splash-img" id="home">
+            <div class="splash-bkgd" id="home">
                 <div class="splash-txt">
-                    <h2>Muskoka Dentistry</h2>
-                    <p>Your local family dentist offering the highest quality service
+                    <h2>New Patients Welcome</h2>
+                    <p>Call or email today to book your first appointment
                     </p>
                 </div>
             </div>
 
         </section>
-        <div class="bkgd-cloud">
-        <section class="c1 shadow2">
+        <section class="shadow">
             <h2 id="about">About The Practice</h2>
             <aside class="about">
                 <div class="img-center">
-                    <img src="http://placehold.it/300x300">
+                    <img src="http://placehold.it/300x300" alt="The is a placeholder image until a suitable one is found or created">
                 </div>
                 <div class="text">
-                    <h4 class=>About</h4>
+                    <h4>About</h4>
                     <p>
                         Lorem ipsum dolor sit amet, maiores ornare ac fermentum, imperdiet ut vivamus a, nam lectus at nunc. Quam euismod sem, semper ut potenti pellentesque quisque. In eget sapien sed, sit duis vestibulum ultricies, placerat morbi amet vel, nullam in in lorem
                         vel. In molestie elit dui dictum, praesent nascetur pulvinar sed, in dolor pede in aliquam, risus nec error quis pharetra. Eros metus quam augue suspendisse, metus rutrum risus erat in. In ultrices quo ut lectus, etiam vestibulum
@@ -88,10 +59,9 @@
 
             </aside>
         </section>
-        <!-- <hr class="style-seven"> -->
-        <section class="c2">
+        <section class="alt-back shadow2">
             <h2 id="meet">Meet The Dentist</h2>
-            <aside class="meet reverse">
+            <aside class="reverse">
                 <div class="img-center">
                     <img src="http://placehold.it/300x300">
                 </div>
@@ -109,47 +79,77 @@
             </aside>
 
         </section>
-        <!-- <hr class="style-seven"> -->
-        <section class="c3 shadow">
+        <section class="shadow">
             <h2 id="services">Services</h2>
             <div class="services">
                 <ul class="services">
-                    <li class="button">Example</li>
-                    <li class="button">Example</li>
-                    <li class="button">Example</li>
-                    <li class="button">Example</li>
-                    <li class="button">Example</li>
-                    <li class="button">Example</li>
-                    <li class="button">Example</li>
-                    <li class="button">Example</li>
-                    <li class="button">Example</li>
+                    <li class="button"><a href="services.html#ex1">Example 1</a></li>
+                    <li class="button"><a href="services.html#ex2">Example 2</a></li>
+                    <li class="button"><a href="services.html#ex3">Example 3</a></li>
+                    <li class="button"><a href="services.html#ex4">Example 4</a></li>
+                    <li class="button"><a href="services.html#ex5">Example 5</a></li>
+                    <li class="button"><a href="services.html#ex6">Example 6</a></li>
+                    <li class="button"><a href="services.html#ex7">Example 7</a></li>
+                    <li class="button"><a href="services.html#ex8">Example 8</a></li>
+                    <li class="button"><a href="smile-advisor.html">NOBEL Smile Advisor</a></li>
                 </ul>
 
             </div>
         </section>
-      </div>
-        <!-- <hr class="style-seven"> -->
-        <section class="c4">
-      <h2 id="contact">Contact Us</h2>
-      <div class="contact">
-      <div class="map">
-        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:400px;width:650px;'><div id='gmap_canvas' style='height:400px;width:650px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="https://disclaimergenerator.net">disclaimer generator</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(45.0435299,-79.31435299999998),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(45.0435299,-79.31435299999998)});infowindow = new google.maps.InfoWindow({content:'<strong>Dr. Stuart Robson Dentistry Professional Corp</strong><br>149 Manitoba St, Bracebridge, P1L 2B7<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-      </div>
-      <div class="address">
-        <address class="">
-          149 Manitoba St <br>
-          Bracebridge, ON <br>
-          P1L 2B7 <br>
-          705-645-4151
+        <section class="alt-back shadow2">
+            <h2 id="contact">Contact Us</h2>
+            <div class="contact">
+                <div class="map">
+                    <div style="overflow:hidden;">
+                        <div id="gmap_canvas" style="height:400px; width:500px;">
+                            <a class="google-map-code" href="http://www.themecircle.net" id="get-map-data">Dr Stuart Robson </a>
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+                        function init_map() {
+                            var myOptions = {
+                                zoom: 17,
+                                center: new google.maps.LatLng(45.0435299, -79.31435299999998),
+                                mapTypeId: google.maps.MapTypeId.ROADMAP
+                            };
+                            map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
+                            marker = new google.maps.Marker({
+                                map: map,
+                                position: new google.maps.LatLng(45.0435299, -79.31435299999998)
+                            });
+                            infowindow = new google.maps.InfoWindow({
+                                content: "<b>Dr Stuart Robson</b><br/>149 Manitoba St<br/>Brcebridge, ON <br/>P1L 2B7<br> 705-645-4151"
+                            });
+                            google.maps.event.addListener(marker, "click", function() {
+                                infowindow.open(map, marker);
+                            });
+                            infowindow.open(map, marker);
+                        }
+                        google.maps.event.addDomListener(window, 'load', init_map);
+                    </script>
+                </div>
+                <div class="address">
+                    <p class="text 1em">
+                      Phone: <a href="tel://1-705-645-4151">705-645-4151</a> | Email: <a href="mailto:contact@drstuartrobson.com"> contact@drstuartrobson.com</a>
 
-        </address>
-      </div>
-    </div>
-    </section>
+                    </p>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer class="c1">
-
+    <footer class="footer">
+        <hr style="margin: 0px;">
+        <ul class="nav-bottom">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About the Practice</a></li>
+            <li><a href="#meet">Meet The Dentist</a></li>
+            <li><a href="#services.html">Services</a></li>
+            <li><a href="smile-advisor.html">Smile Advisor</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p style="text-align: center; margin-bottom: 0px; padding-bottom: 16px;">Copyright 2016 Dr Stuart Robson Dental Corporation</p>
     </footer>
 
-  </body>
+</body>
+
 </html>
